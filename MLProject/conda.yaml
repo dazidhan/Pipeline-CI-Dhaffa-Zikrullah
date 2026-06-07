@@ -1,0 +1,11 @@
+name: shoppers-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.7
+  - pandas
+  - scikit-learn
+  - pip
+  - pip:
+    - mlflow
+    - dagshub

@@ -1,0 +1,7 @@
+name: Online_Shoppers_Intention_CI
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    command: "python train.py"
